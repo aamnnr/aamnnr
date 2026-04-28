@@ -1,9 +1,9 @@
-name: "Update GitHub Profile Stats (Graphic + Dynamic)"
+name: "🔄 Update GitHub Stats Cards (aamnnr)"
 
 on:
   schedule:
-    - cron: "0 3 * * *"   
-  workflow_dispatch:       
+    - cron: "0 3 * * *"
+  workflow_dispatch:
 
 jobs:
   update:
@@ -15,40 +15,22 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
 
-      # ---- STATS CARD (total commits, stars, PR, dll) ----
-      - name: Generate GitHub Stats Card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=radical
-          path: images/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 📊 Download GitHub Stats Card
+        run: |
+          mkdir -p images
+          curl -L "https://github-readme-stats.vercel.app/api?username=aamnnr&show_icons=true&hide_rank=true&theme=radical" -o images/stats.svg
 
-      # ---- MOST USED LANGUAGES CARD ----
-      - name: Generate Top Languages Card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=radical
-          path: images/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 📚 Download Top Languages Card
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=aamnnr&layout=compact&theme=radical" -o images/top-langs.svg
 
-      # ---- TROPHY CARD ----
-      - name: Generate GitHub Trophy Card
-        uses: Erik-Donath/github-profile-trophy@v4
-        with:
-          username: ${{ github.repository_owner }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-          file: images/trophy.svg
-          theme: radical
-          margin-w: 10
-          margin-h: 10
-          column: 4
+      - name: 🏆 Download GitHub Trophy Card
+        run: |
+          curl -L "https://github-profile-trophy.vercel.app/?username=aamnnr&theme=radical&margin-w=10&margin-h=10&column=4" -o images/trophy.svg
 
-      # ---- COMMIT & PUSH SEMUA GAMBAR ----
-      - name: Commit and push generated images
+      - name: 💾 Commit and push images
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add images/*.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "auto-update stats cards" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🖼️ auto-update stats cards" && git push)
