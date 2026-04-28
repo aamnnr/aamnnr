@@ -1,8 +1,8 @@
-name: "🔄 Update GitHub Stats Cards (aamnnr)"
+name: "Update GitHub Stats Cards (aamnnr)"
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 3 * * *" # jam 10 WIB
   workflow_dispatch:
 
 jobs:
@@ -10,27 +10,28 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: 📊 Download GitHub Stats Card
+      - name: Download GitHub Stats Card
         run: |
           mkdir -p images
           curl -L "https://github-readme-stats.vercel.app/api?username=aamnnr&show_icons=true&hide_rank=true&theme=radical" -o images/stats.svg
 
-      - name: 📚 Download Top Languages Card
+      - name: Download Top Languages Card
         run: |
           curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=aamnnr&layout=compact&theme=radical" -o images/top-langs.svg
 
-      - name: 🏆 Download GitHub Trophy Card
+      - name: Download GitHub Trophy Card
         run: |
           curl -L "https://github-profile-trophy.vercel.app/?username=aamnnr&theme=radical&margin-w=10&margin-h=10&column=4" -o images/trophy.svg
 
-      - name: 💾 Commit and push images
+      - name: Commit and push images
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add images/*.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🖼️ auto-update stats cards" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto-update stats cards" && git push)
