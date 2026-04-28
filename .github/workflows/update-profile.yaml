@@ -1,0 +1,54 @@
+name: "Update GitHub Profile Stats (Graphic + Dynamic)"
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   
+  workflow_dispatch:       
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      # ---- STATS CARD (total commits, stars, PR, dll) ----
+      - name: Generate GitHub Stats Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=radical
+          path: images/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ---- MOST USED LANGUAGES CARD ----
+      - name: Generate Top Languages Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=radical
+          path: images/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ---- TROPHY CARD ----
+      - name: Generate GitHub Trophy Card
+        uses: Erik-Donath/github-profile-trophy@v4
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          file: images/trophy.svg
+          theme: radical
+          margin-w: 10
+          margin-h: 10
+          column: 4
+
+      # ---- COMMIT & PUSH SEMUA GAMBAR ----
+      - name: Commit and push generated images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/*.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto-update stats cards" && git push)
