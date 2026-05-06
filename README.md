@@ -1,14 +1,13 @@
 <h1 align="center">Hi there 👋</h1>
 <h2 align="center">I'm Nur Amin</h2>
-<h3 align="center">Computer Engineer</h3>
-<h3 align="center">IoT Engineer</h3>
-<h3 align="center">Software Engineer</h3>
-<h3 align="center">Tech Enthusiast</h3>
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F5FF&center=true&vCenter=true&lines=Computer+Engineer;IoT+Engineer;Software+Engineer;Tech+Enthusiast" />
+</p>
 
 ---
 
-## 🌐 Socials
+## Socials
 <p align="center">
   <a href="https://instagram.com/aamnnr">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
@@ -20,61 +19,47 @@
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 <p align="center">
 
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/>
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Livewire-4E56A6?style=for-the-badge&logo=laravel&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nuxt_JS-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"/>
-
-<img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/MySQL-003B57?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,php,laravel,vue,nuxt,tailwind,bootstrap,jquery" />
+<br/>
+<img src="https://skillicons.dev/icons?i=mysql,sqlite,nginx,apache,git,github,postman,npm" />
 
 </p>
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aamnnr/aamnnr/main/images/stats.svg" />
+  <img src="https://github-readme-stats.vercel.app/api?username=aamnnr&show_icons=true&theme=radical&hide_border=true" />
 </p>
 
 ---
 
-## 🔥 GitHub Streak
+## Most Used Languages
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=aamnnr&theme=radical"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aamnnr&layout=compact&theme=radical&hide_border=true" />
 </p>
 
 ---
 
-## 📈 Most Used Languages
+## GitHub Streak
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aamnnr/aamnnr/main/images/top-langs.svg" />
+  <img src="https://streak-stats.demolab.com?user=aamnnr&theme=radical&hide_border=true" />
 </p>
 
 ---
 
-## 🏆 GitHub Trophies
+## GitHub Trophies
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aamnnr/aamnnr/main/images/trophy.svg" />
+  <img src="https://github-profile-trophy.vercel.app/?username=aamnnr&theme=radical&no-frame=true&row=1&column=6" />
 </p>
+
+---
+
+## About Me
+- 🔭 Working on IoT & Web Development
+- 🌱 Learning Backend Architecture & System Design
+- ⚡ Interested in Automation & Clean Code
+- 🎯 Goal: Build scalable real-world systems
