@@ -78,9 +78,3 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/aamnnr/aamnnr/main/images/trophy.svg" />
 </p>
-
----
-
-<p align="center">
-  ✨ Data diperbarui otomatis setiap hari (10:00 WIB)
-</p>
