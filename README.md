@@ -30,13 +30,6 @@
 
 ---
 
-## GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aamnnr&show_icons=true&theme=radical&hide_border=true" />
-</p>
-
----
-
 ## Most Used Languages
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aamnnr&layout=compact&theme=radical&hide_border=true" />
@@ -51,9 +44,19 @@
 
 ---
 
-## GitHub Trophies
+## GitHub Stats
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aamnnr&theme=radical&no-frame=true&row=1&column=6" />
+  <img src="https://github-readme-stats.vercel.app/api?username=aamnnr&show_icons=true&theme=radical&hide_border=true" />
+</p>
+
+## 📈 Top Languages
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aamnnr&layout=compact&theme=radical&hide_border=true" />
+</p>
+
+## Trophy
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=aamnnr&theme=radical" />
 </p>
 
 ---
