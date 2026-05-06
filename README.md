@@ -76,7 +76,7 @@
 
 ## 🏆 GitHub Trophies
 <p align="center">
-  <img src="./images/trophy.svg" />
+  <img src="https://raw.githubusercontent.com/aamnnr/aamnnr/main/images/trophy.svg" />
 </p>
 
 ---
