@@ -55,7 +55,7 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="./images/stats.svg" />
+  <img src="https://raw.githubusercontent.com/aamnnr/aamnnr/main/images/stats.svg" />
 </p>
 
 ---
@@ -69,7 +69,7 @@
 
 ## 📈 Most Used Languages
 <p align="center">
-  <img src="./images/top-langs.svg" />
+  <img src="https://raw.githubusercontent.com/aamnnr/aamnnr/main/images/top_langs.svg" />
 </p>
 
 ---
