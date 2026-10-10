@@ -90,26 +90,26 @@
 
 ## Most Used Languages
 <p align="center">
-  <img alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aamnnr&layout=compact&theme=radical&hide_border=true" />
+  <img alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aamnnr&layout=compact&theme=radical&hide_border=true&v=20261010" />
 </p>
 
 ---
 
 ## GitHub Streak
 <p align="center">
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=aamnnr&theme=radical&hide_border=true" />
+  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=aamnnr&theme=radical&hide_border=true&v=20261010" />
 </p>
 
 ---
 
 ## GitHub Stats
 <p align="center">
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=aamnnr&show_icons=true&theme=radical&hide_border=true" />
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=aamnnr&show_icons=true&theme=radical&hide_border=true&v=20261010" />
 </p>
 
 ---
 
 ## Trophy
 <p align="center">
-  <img alt="GitHub trophies" src="https://github-trophies.vercel.app/?username=aamnnr&theme=radical&no-frame=true&column=6" />
+  <img alt="GitHub trophies" src="https://github-trophies.vercel.app/?username=aamnnr&theme=radical&no-frame=true&column=6&v=20261010" />
 </p>
