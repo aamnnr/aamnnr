@@ -41,6 +41,8 @@
 **Backend**
 <p align="center">
   <img alt="Backend stack" src="https://skillicons.dev/icons?i=php,laravel,wordpress,nodejs,express,python,flask,java" />
+  <br/>
+  <img alt="Odoo" src="https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white" />
 </p>
 
 **Mobile**
@@ -55,7 +57,7 @@
 
 **Database**
 <p align="center">
-  <img alt="Database stack" src="https://skillicons.dev/icons?i=mysql,mongodb,firebase,supabase" />
+  <img alt="Database stack" src="https://skillicons.dev/icons?i=mysql,mongodb,redis,firebase,supabase" />
 </p>
 
 **Web Server**
