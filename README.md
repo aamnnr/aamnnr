@@ -33,9 +33,14 @@
 
 ## Tech Stack
 
-**Web**
+**Frontend**
 <p align="center">
-  <img alt="Web stack" src="https://skillicons.dev/icons?i=html,css,js,ts,php,laravel,vue,nuxt,tailwind,bootstrap,jquery" />
+  <img alt="Frontend stack" src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,nuxt,astro,tailwind,bootstrap,jquery,vite" />
+</p>
+
+**Backend**
+<p align="center">
+  <img alt="Backend stack" src="https://skillicons.dev/icons?i=php,laravel,wordpress,nodejs,express,python,flask,java" />
 </p>
 
 **Mobile**
@@ -43,14 +48,25 @@
   <img alt="Mobile stack" src="https://skillicons.dev/icons?i=flutter,dart" />
 </p>
 
-**IoT & Other Languages**
+**IoT & Machine Learning**
 <p align="center">
-  <img alt="IoT and other languages" src="https://skillicons.dev/icons?i=arduino,cpp,python,java" />
+  <img alt="IoT and machine learning stack" src="https://skillicons.dev/icons?i=arduino,cpp,opencv,sklearn" />
 </p>
 
-**Database & Tools**
+**Database**
 <p align="center">
-  <img alt="Database and tools" src="https://skillicons.dev/icons?i=mysql,sqlite,nginx,apache,git,github,postman,npm" />
+  <img alt="Database stack" src="https://skillicons.dev/icons?i=mysql,mongodb,firebase,supabase" />
+</p>
+
+**Web Server**
+<p align="center">
+  <img alt="Nginx" src="https://skillicons.dev/icons?i=nginx" />
+  <img alt="Apache" title="Apache" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" width="48" height="48" />
+</p>
+
+**Tools**
+<p align="center">
+  <img alt="Tools" src="https://skillicons.dev/icons?i=git,github,postman,npm" />
 </p>
 
 ---
